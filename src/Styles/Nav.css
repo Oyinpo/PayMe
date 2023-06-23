@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url("./Gilroy-Medium.ttf");
+  }
+
+  @font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: url("./Gilroy-SemiBold.ttf");
+  }
+  
+  @font-face {
+    font-family: 'Gilroy-Thin';
+    src: url("./Gilroy-Thin.ttf");
+  }
+
+  @font-face {
+    font-family: 'Gilroy-Regular';
+    src: url("./Gilroy-Regular.ttf");
+  }
+  @font-face {
+    font-family: 'Gilroy-Bold';
+    src: url("./Gilroy-Bold.ttf");
+  }
+
+
+.nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-nav{
+    width: 100%;
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.link, .MobileLink {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.link-in{
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Gilroy-Medium';   
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.sign{
+    width: 100px;
+    margin-left: 320px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign a{
+    text-decoration: none;
+}
+.in button{
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 3px;
+    border: none;
+    color: #313131;
+    background-color: white;
+    font-family: 'Gilroy-Medium';
+    font-size: 15px;
+    line-height: 20px;
+}
+.up  button{
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 3px;
+    border: 1px solid #25A4AD;
+    color: #25A4AD;
+    background-color: white;
+    font-family: 'Gilroy-Medium';
+    font-size: 15px;
+    line-height: 20px;
+}
+/* .in, .up button{
+    text-decoration: none;
+} */
+.bars,.times{
+    display: none;
+}
+
+
+@media screen and (max-width:500px) {
+
+    .nav{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        margin-top: 10px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo-nav{
+        width: 100%;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .link{
+        width: 60%;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: 'Gilroy-Medium';   
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .link-in{
+      
+        height: 100px;
+        position: relative;
+        right: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-family: 'Gilroy-Medium';   
+        line-height: 2;
+    }
+
+    .link-in a{
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .MobileLink{
+        width: 100%;
+        height: 200px;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-family: 'Gilroy-Medium';   
+        background-color: #25A4AD;
+    }
+ 
+    .sign{
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        line-height: 3;
+        margin-left: 110px;
+       
+
+    }
+    .sign button{
+        width: 100px;
+        height: 30px;
+      
+    }
+    .sign a{
+        text-decoration: none;
+    }
+    .bars,.times{
+        position: relative;
+        right: 10px;
+        bottom: 10px;
+        display: flex;
+    }
+    
+}
