@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import '../Styles/Nav.css'
 import logo from '../assets/Payme.png'
 import { Link } from 'react-router-dom';
-import '../styles/Nav.css'
 import {GoThreeBars} from 'react-icons/go'
 import {FaRegTimesCircle} from 'react-icons/fa'
 

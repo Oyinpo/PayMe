@@ -52,26 +52,6 @@ const Home = () => {
         <div>
              {/* Navbar */}
             <div className='nav'>
-                {/* <div className='logo-nav'>
-                    <div>
-                        <img src={logo}/>
-                    </div>
-                    <div className= {mobile? "MobileLink":'link'}>
-                        <Link to="/" onClick={handleClose}>Home</Link>
-                        <Link to="/*" onClick={handleClose}>About</Link>
-                        <Link to="/*" onClick={handleClose}>Testimonials</Link>
-                        <Link to="/*" onClick={handleClose}>Contact</Link>
-                    </div>
-                </div>
-                <div className='sign'>
-                    <div className='in'>
-                        <button>Sign in</button>
-                    </div>
-                    <div className='up'>
-                      <button>Sign up</button>
-                    </div>
-                </div> */}
-
                 <Nav/>
             </div>
             <div className='proGirl'>
