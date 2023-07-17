@@ -49,7 +49,7 @@ const Home = () => {
     }
  
     return(
-        <div>
+        <div className='pay'>
              {/* Navbar */}
             <div className='nav'>
                 <Nav/>

@@ -28,66 +28,11 @@
     src: url("./Gilroy-Bold.ttf");
   }
 
+.pay{
 
-.nav{
-    width: 100%;
-    height: 10vh;
-    display: flex;
-    margin-top: 30px;
-    justify-content: space-between;
-    align-items: center;
 }
-.logo-nav{
-    width: 50%;
-    margin-left: 80px;
-    display: flex;
-    justify-content: space-around;
-}
-.link{
-    width: 70%;
-    display: flex;
-    justify-content: space-between;
-    font-family: 'Gilroy-Medium';   
-    font-size: 15px;
-    line-height: 20px;
-}
-.link a{
-    text-decoration: none;
-}
-.sign{
-    width: 100px;
-    margin-right: 200px;
-    display: flex;
-    justify-content: space-between;
-}
-.in button{
-    width: 100px;
-    height: 40px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border-radius: 3px;
-    border: none;
-    color: #313131;
-    background-color: white;
-    font-family: 'Gilroy-Medium';
-    font-size: 15px;
-    line-height: 20px;
-}
-.up  button{
-    width: 100px;
-    height: 40px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border-radius: 3px;
-    border: 1px solid #25A4AD;
-    color: #25A4AD;
-    background-color: white;
-    font-family: 'Gilroy-Medium';
-    font-size: 15px;
-    line-height: 20px;
-}
+
+/* main */
 .proGirl{
     display: flex;
 }
@@ -105,9 +50,11 @@
     width: 100px;
     margin-top: 30px;
     font-family: 'Gilroy-Thin';
+    font-weight: 100;
     font-size: 58px;
     line-height: 100px;
 }
+
 .webs{
     width: 900px;
     margin-top: 20px;
@@ -309,6 +256,22 @@
     font-family: 'Gilroy-Medium';
 }
 
+.time:hover{
+    padding: 5px;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 0px 38.5185px 25.4815px rgba(49, 49, 49, 0.0607407), 0px 20px 13px rgba(49, 49, 49, 0.05), 0px 1.85185px 3.14815px rgba(49, 49, 49, 0.0240741);
+}
+.time:hover h2 {
+    color: #25A4AD;
+}
+.time:hover h6 {
+    color: #25A4AD;
+}
+
 .collab{
     padding: 5px;
     margin-left: 20px;
@@ -336,6 +299,23 @@
     text-decoration: underline;
     font-family: 'Gilroy-Medium';
 }
+
+.collab:hover{
+    padding: 5px;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 0px 38.5185px 25.4815px rgba(49, 49, 49, 0.0607407), 0px 20px 13px rgba(49, 49, 49, 0.05), 0px 1.85185px 3.14815px rgba(49, 49, 49, 0.0240741);
+}
+.collab:hover h2 {
+    color: #25A4AD;
+}
+.collab:hover h6 {
+    color: #25A4AD;
+}
+
 
 .empty{
  
@@ -366,6 +346,22 @@
     text-decoration: underline;
     font-family: 'Gilroy-Medium';
 }
+.empty:hover{
+    padding: 5px;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 0px 38.5185px 25.4815px rgba(49, 49, 49, 0.0607407), 0px 20px 13px rgba(49, 49, 49, 0.05), 0px 1.85185px 3.14815px rgba(49, 49, 49, 0.0240741);
+}
+.empty:hover h2 {
+    color: #25A4AD;
+}
+.empty:hover h6 {
+    color: #25A4AD;
+}
+
 
 .wot{
     display: flex;
@@ -507,6 +503,7 @@
     background-color: white;
 }
 
+
 .teams{
     width: 350px;
     height: 450px;
@@ -551,8 +548,8 @@
     background-color: #25A4AD;
 }
 
-/* company */
 
+/* company */
 .company{
     width: 350px;
     height: 450px;
@@ -796,7 +793,9 @@ FAQ */
         height: 400px;
         position: relative;
         left: 450px;
+        display: none;
     }
+   
     .prov-web{
         margin-left: 1px;
         margin-top: 1px;
@@ -861,7 +860,7 @@ FAQ */
     
     
     .brands{
-        width: 480;
+        width: 480px;
         height: 100px;
         background-color:  #F8F8F8;
         display: flex;
@@ -901,18 +900,20 @@ FAQ */
     }
     
     .web{
+        width: 200px;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        margin: 0 auto;
+        justify-content: space-between;
         align-items: center;
+    
     }
     
     .web img{
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px;
     }
     .devs{
-        width: 420px;
+        width: 380px;
         margin-top: 50px;
         display: flex;
         justify-content: space-between;
@@ -922,7 +923,7 @@ FAQ */
     }
     
     .datas{
-        width: 420px;
+        width: 380px;
         display: flex;
         justify-content: space-between;
         position: relative;
@@ -1139,7 +1140,7 @@ FAQ */
         margin-left: 10px;
         width: 420px;
         height: 300px;
-        border-bottom-right-radius: 100px;
+        border-bottom-right-radius: 150px;
         background-color: #F8F8F8;
     }
     
@@ -1169,7 +1170,6 @@ FAQ */
         align-items: center;
     }
     
-    /* pricing */
     .price span{
         margin-top: 80px;
         margin-left: 10px;
@@ -1273,8 +1273,7 @@ FAQ */
         background-color: #25A4AD;
     }
     
-    /* company */
-    
+     
     .company{
         width: 350px;
         height: 450px;
@@ -1318,9 +1317,7 @@ FAQ */
         background-color: white;
     }
     
-    /* 
-    FAQ */
-    
+      
     .faq{
         margin-top: 80px;
         display: flex;
@@ -1413,7 +1410,6 @@ FAQ */
         font-family: 'Gilroy-Regular';
     }
     
-    /* footer */
     .black{
         margin-top: 50px;
         padding: 10px;
@@ -1511,4 +1507,4 @@ FAQ */
         font-family: 'Gilroy-Medium';
         font-size: 12px;
     }
-}
+} 
